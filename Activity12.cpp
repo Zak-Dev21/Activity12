@@ -12,8 +12,9 @@ int main()
     cin >> positive_num;
 
     for (int i = positive_num - 1; i > 1; i--)
-        positive_num *= i;
         cout << positive_num;
+        positive_num *= i;
+        
 
     cout << positive_num;
 
