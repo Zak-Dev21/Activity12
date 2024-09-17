@@ -13,7 +13,7 @@ int main()
 
     for (int i = positive_num - 1; i > 1; i--) {
         positive_num *= i;
-        cout << positive_num;
+        cout << i << endl;
     }
 
     cout << positive_num;
